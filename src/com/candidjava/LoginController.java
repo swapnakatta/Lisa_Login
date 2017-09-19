@@ -15,7 +15,7 @@ public class LoginController extends HttpServlet {
 		String un=request.getParameter("username");
 		String pw=request.getParameter("password");
 		
-		if(un.equals("admin") && pw.equals("admin"))
+		if(un.equals("swapna") && pw.equals("swapna"))
 		{
 			response.sendRedirect("success.html");
 			return;
