@@ -10,6 +10,17 @@
   	<jstl-version>1.2</jstl-version>
   	<java-version>1.8</java-version>
   </properties>
+  <distributionManagement>
+		<repository>
+			<id>nexus</id>
+			<url>http://10.53.77.155:8085/nexus/content/repositories/teravirtual/</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus</id>
+			<url>http://10.53.77.155:8085/nexus/content/repositories/jayanth</url>
+		</snapshotRepository>
+
+	</distributionManagement>
   <dependencies>
   	   <dependency>
     	<groupId>javax.servlet</groupId>
